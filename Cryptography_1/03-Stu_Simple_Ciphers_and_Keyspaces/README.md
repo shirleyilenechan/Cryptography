@@ -52,7 +52,7 @@ QWERTYUIOPASDFGHJKLZXCVBNM
         | 2 4 1 3 |
     ```
 
-    taat cakdta !w!
+    - taat cakdta !w!
 
 
 - The key space of the transposition cipher depends on the block size. In particular, the larger the block, the larger the key space. How big does the block size need to be for the transposition cipher to be just as strong as the Generalized Substitution Cipher?

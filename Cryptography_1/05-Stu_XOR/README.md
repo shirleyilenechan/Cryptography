@@ -8,24 +8,24 @@ In this activity, you'll
 
 AND
 
-1 & 1 = 1
-0 & 0 = 0
-0 & 1 = 0
-1 & 0 = 0
+- 1 & 1 = 1
+- 0 & 0 = 0
+- 0 & 1 = 0
+- 1 & 0 = 0
 
 OR
 
-1 | 1 = 1
-0 | 0 = 0
-0 | 1 = 1
-1 | 0 = 1
+- 1 | 1 = 1
+- 0 | 0 = 0
+- 0 | 1 = 1
+- 1 | 0 = 1
 
 XOR
 
-1 ^ 1 = 0
-0 ^ 0 = 0
-0 ^ 1 = 1
-1 ^ 0 = 1
+- 1 ^ 1 = 0
+- 0 ^ 0 = 0
+- 0 ^ 1 = 1
+- 1 ^ 0 = 1
 
 
 ## Instructions
@@ -36,55 +36,27 @@ Write the result of applying XOR to each of the pairs of bytes below.
 
 - `10110101 ^ 10101010`
 
-  00011111
+  - 00011111
 
 - `11011010 ^ 10001010`
   
-  01010000
+  - 01010000
 
 - `01000001 ^ 11001100`
 
-  10001101
+  - 10001101
 
 - `11111111 ^ 11111111`
 
-  0 
+  - 0 
 
 - `00000000 ^ 11111111`
   
-  11111111
+  - 11111111
 
 - `00000000 ^ 00000000`
   
-  0 
-
-### Truth Tables
-
-Fill out each of the tables below.
-
-#### AND
-
-Left  Operator  Right   Result
-  0      &        0      0 
-  0      &        1      0
-  1      &        0      0
-  1      &        1      1
-
-#### OR 
-
-Left  Operator  Right   Result
-  0      |        0      0
-  0      |        1      1
-  1      |        0      1
-  1      |        1      1
-
-#### XOR 
-
-Left  Operator  Right   Result
-  0      ^        0      0
-  0      ^        1      1
-  1      ^        0      1
-  1      ^        1      0
+  - 0 
 
 ### Questions
 

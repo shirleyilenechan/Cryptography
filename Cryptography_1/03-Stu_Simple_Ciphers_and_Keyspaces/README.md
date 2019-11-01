@@ -7,13 +7,13 @@ In this activity, you'll practice using each of the classic ciphers discussed in
 ### Caesar Cipher
 
 - Use the Caesar Cipher with `k = 3` to encrypt the message: `attack at dawn!`
-    dwwdfn dw gdzq
+    - dwwdfn dw gdzq
 
 - How big is the keyspace of the Caesar Cipher? I.e., how many possible keys can you use?
-    26 possible keys
+    - 26 possible keys
 
 - By corollary: How many keys do you have to try to attack this cipher via brute force?
-    25
+    - 25
 
 ### General Substitution Cipher
 
@@ -33,7 +33,7 @@ QWERTYUIOPASDFGHJKLZXCVBNM
 
 - The above "Substituted Alphabet" is just one example of the possible substitued alphabets we could have created. How many such alphabets are there?
   
-  26!
+  - 26!
 
 - **Bonus**: To find a precise answer, consider the following questions.
   - Assume you want to create a substituted alphabet, starting from scratch. In the example above, we replaced `A` with `Q`. How many letters could you choose to encrypt the letter `A`?
@@ -57,16 +57,16 @@ QWERTYUIOPASDFGHJKLZXCVBNM
 
 - The key space of the transposition cipher depends on the block size. In particular, the larger the block, the larger the key space. How big does the block size need to be for the transposition cipher to be just as strong as the Generalized Substitution Cipher?
 
-    The block size needs to be equal to 26
+    - The block size needs to be equal to 26
 
 ### Questions
 
 - Rank the above three ciphers from weakest to strongest.
 
-    Caesar
-    Transposition (with `k <= 26`)
-    Generalized Substitution
-    Transposition (with `k > 26`)
+    - Caesar
+    - Transposition (with `k <= 26`)
+    - Generalized Substitution
+    - Transposition (with `k > 26`)
 
 ### Extension
 
